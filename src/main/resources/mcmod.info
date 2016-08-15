@@ -1,0 +1,16 @@
+[
+{
+  "modid": "ytmodsmc",
+  "name": "YouTub Mods Minecraft",
+  "description": "Mod done by feedback from youtube.",
+  "version": "0.0.1-alpha",
+  "mcversion": "1.10.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [""],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
