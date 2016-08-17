@@ -7,6 +7,7 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import zairus.ytmodsmc.event.WorldGenEvents;
 import zairus.ytmodsmc.proxy.CommonProxy;
 
 @Mod(modid = YTConstants.MODID, name = YTConstants.MODNAME, version = YTConstants.VERSION)
@@ -32,6 +33,8 @@ public class YTModsMC
     public void init(FMLInitializationEvent event)
     {
 		proxy.init(event);
+		
+		WorldGenEvents.init();
     }
 	
 	@Mod.EventHandler
